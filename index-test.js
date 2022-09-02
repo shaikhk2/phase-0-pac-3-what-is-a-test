@@ -1,8 +1,6 @@
-//import { name, height, message } from "../index.js";
-const name = "Joe";
-const height = 74;
-const message = `${name} is ${height} inches tall`;
+const { name, height, message } = require("../index.js");
 
+/*
 describe('what-is-a-test', () => {
   describe('Name', () => {
     it('returns "Susan"', () => {
@@ -24,3 +22,4 @@ describe('what-is-a-test', () => {
     })
   })
 })
+*/
